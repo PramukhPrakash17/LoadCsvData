@@ -1,6 +1,5 @@
-package Controller;
+package com.pramukh.loaddatatodb;
 
-import Service.LoadDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
