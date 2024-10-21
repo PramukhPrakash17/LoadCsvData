@@ -1,7 +1,5 @@
-package Service;
+package com.pramukh.loaddatatodb;
 
-import Model.LoadDataModel;
-import Repository.LoadDataRepository;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import org.springframework.beans.factory.annotation.Autowired;

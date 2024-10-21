@@ -1,4 +1,4 @@
-package Model;
+package com.pramukh.loaddatatodb;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
