@@ -1,4 +1,4 @@
-package com.pramukh.loaddatatodb;
+package com.pramukh.loaddatatodb.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -28,5 +29,4 @@ public class LoadDataModel {
     private String preffered_foot;
     private String nationality;
     private int natianal_jersey_number;
-
 }
